@@ -40,6 +40,11 @@
 - Integração com gRPC e Kafka (RedPanda)
 - Desenvolvimento de APIs RESTful (HTTP1/2)
 
+** Funerária Francana (2024-2025)
+#+ATTR_REVEAL: :frag (appear)
+- Desenvolvimento de aplicativo Android/IOS
+- Análise de dados
+
 ** FACTI (2023)
 #+ATTR_REVEAL: :frag (appear)
 - Desenvolvimento Full Stack com JavaScript e Node.js
