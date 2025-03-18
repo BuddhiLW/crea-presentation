@@ -1,0 +1,105 @@
+/* Cores e tema geral */
+:root {
+    --main-bg-color: #1a1a1a;
+    --main-text-color: #f0f0f0;
+    --accent-color: #4a9eff;
+    --secondary-color: #ff6b6b;
+}
+
+.reveal {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 2.5em;
+}
+
+/* Títulos */
+.reveal h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--accent-color);
+    text-transform: none;
+    font-size: 2.2em;
+    margin-bottom: 0.5em;
+}
+
+.reveal h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: var(--secondary-color);
+    text-transform: none;
+    font-size: 1.8em;
+}
+
+/* Listas e texto */
+.reveal ul {
+    list-style: none;
+}
+
+.reveal ul li::before {
+    content: "▹";
+    color: var(--accent-color);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+}
+
+/* Fragmentos e animações */
+.reveal .fragment.highlight-current-red {
+    opacity: 1;
+    visibility: inherit;
+}
+
+.reveal .fragment.highlight-current-red.current-fragment {
+    color: var(--secondary-color);
+}
+
+/* Links */
+.reveal a {
+    color: var(--accent-color);
+    text-decoration: none;
+    transition: color 0.15s ease;
+}
+
+.reveal a:hover {
+    color: var(--secondary-color);
+    text-shadow: none;
+    border: none;
+}
+
+/* Backgrounds para seções específicas */
+.title__cards {
+    background: rgba(26, 26, 26, 0.85) !important;
+    border-radius: 10px;
+    padding: 20px !important;
+}
+
+/* Responsividade */
+@media screen and (max-width: 768px) {
+    .reveal {
+        font-size: 1.8em;
+    }
+    
+    .reveal h1 {
+        font-size: 1.8em;
+    }
+    
+    .reveal h2 {
+        font-size: 1.5em;
+    }
+}
+
+/* Animações suaves */
+.reveal .slides section .fragment {
+    transition: all 0.3s ease-out;
+}
+
+/* Estilo para código */
+.reveal pre {
+    background: #282c34;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+.reveal code {
+    font-family: 'Fira Code', monospace;
+    padding: 0.2em 0.4em;
+    border-radius: 3px;
+} 
