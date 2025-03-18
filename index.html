@@ -1,123 +1,227 @@
-:REVEAL_PROPERTIES:
-#+REVEAL_ROOT: https://cdn.jsdelivr.net/npm/reveal.js
-#+REVEAL_REVEAL_JS_VERSION: 4
-#+REVEAL_EXTRA_CSS: ./css/custom.css
-#+REVEAL_EXTRA_CSS: ./css/fonts.css
-#+REVEAL_EXTERNAL_PLUGINS: (spotlight "js/spotlight.js" "plugin/spotlight.js")
-#+REVEAL_EXTRA_SCRIPT_SRC: ./js/caption.js
-#+REVEAL_EXTRA_SCRIPT_SRC: ./js/style.js
-#+REVEAL_PLUGINS: (highlight)
-#+REVEAL_HIGHLIGHT_CSS: https://cdn.jsdelivr.net/npm/reveal.js@4.2.0/plugin/highlight/monokai.css
-#+OPTIONS: reveal_global_footer:t
-#+OPTIONS: timestamp:nil toc:2 num:nil
-:END:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<title>Minha Trajetória</title>
+<meta name="author" content="Pedro G. Branquinho"/>
+<meta name="description" content=""/>
+<meta name="keywords" content=""/>
+<style type="text/css">
+.underline { text-decoration: underline; }
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.css"/>
 
-#+title: Minha Trajetória
-#+AUTHOR: Pedro G. Branquinho
-#+OPTIONS: toc:nil
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js/dist/theme/moon.css" id="theme"/>
 
-* Sobre Mim 👋
-** Engenheiro Físico & Desenvolvedor Full Stack
-#+ATTR_REVEAL: :frag (appear)
-- Formado pela USP (2016-2022)
-- Desenvolvedor com experiência em automação e sistemas distribuídos
-- Especialista em computação científica e desenvolvimento web
-- Apaixonado por resolver problemas complexos usando tecnologia
+<link rel="stylesheet" href="./css/custom.css"/>
 
-** Habilidades Técnicas Principais
-#+ATTR_REVEAL: :frag (highlight-current-red)
-- Go, Python, Julia (Computação de Alta Performance)
-- Clojure(Script) (Desenvolvimento Web Full Stack)
-- DevOps (Linux, Git, Docker)
-- Análise de Dados & Estatística Avançada
-- Microsserviços & Arquitetura Distribuída
+<link rel="stylesheet" href="./css/fonts.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reveal.js@4.2.0/plugin/highlight/monokai.css"/></head>
+<body>
+<div class="reveal">
+<div class="slides">
+<section id="sec-title-slide"><h1 class="title">Minha Trajetória</h1><p class="subtitle"></p>
+<h2 class="author">Pedro G. Branquinho</h2>
+</section>
 
-* Experiência Profissional
-** Orasis Holding (2024-2025)
-#+ATTR_REVEAL: :frag (appear)
-- Desenvolvimento de microsserviços escaláveis
-- Implementação de padrão SAGA para consistência de dados
-- Integração com gRPC e Kafka (RedPanda)
-- Desenvolvimento de APIs RESTful (HTTP1/2)
+<section>
+<section id="slide-org5e8e745">
+<h2 id="org5e8e745">Sobre Mim 👋</h2>
+<div class="outline-text-2" id="text-org5e8e745">
+</div>
+</section>
+<section id="slide-orgaeb47bf">
+<h3 id="orgaeb47bf">Engenheiro Físico &amp; Desenvolvedor Full Stack</h3>
+<ul>
+<li class="fragment appear">Formado pela USP (2016-2022)</li>
+<li class="fragment appear">Desenvolvedor com experiência em automação e sistemas distribuídos</li>
+<li class="fragment appear">Especialista em computação científica e desenvolvimento web</li>
+<li class="fragment appear">Apaixonado por resolver problemas complexos usando tecnologia</li>
 
-** FACTI (2023)
-#+ATTR_REVEAL: :frag (appear)
-- Desenvolvimento Full Stack com JavaScript e Node.js
-- Criação de DSL (Domain Specific Language) para necessidades da empresa
-- Implementação de soluções com ClojureScript
-- Otimização de processos internos
+</ul>
+</section>
+<section id="slide-org60e0437">
+<h3 id="org60e0437">Habilidades Técnicas Principais</h3>
+<ul>
+<li class="fragment highlight-current-red">Go, Python, Julia (Computação de Alta Performance)</li>
+<li class="fragment highlight-current-red">Clojure(Script) (Desenvolvimento Web Full Stack)</li>
+<li class="fragment highlight-current-red">DevOps (Linux, Git, Docker)</li>
+<li class="fragment highlight-current-red">Análise de Dados &amp; Estatística Avançada</li>
+<li class="fragment highlight-current-red">Microsserviços &amp; Arquitetura Distribuída</li>
 
-** Universidade de São Paulo (2022)
-#+ATTR_REVEAL: :frag (appear)
-- Pesquisa em modelagem matemática de tráfego veicular
-- Desenvolvimento de soluções numéricas para PDEs
-- Implementação de algoritmos em Julia e Python
-- Aplicação de técnicas de IA em simulações numéricas
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org2daedea">
+<h2 id="org2daedea">Experiência Profissional</h2>
+<div class="outline-text-2" id="text-org2daedea">
+</div>
+</section>
+<section id="slide-org90c11e1">
+<h3 id="org90c11e1">Orasis Holding (2024-2025)</h3>
+<ul>
+<li class="fragment appear">Desenvolvimento de microsserviços escaláveis</li>
+<li class="fragment appear">Implementação de padrão SAGA para consistência de dados</li>
+<li class="fragment appear">Integração com gRPC e Kafka (RedPanda)</li>
+<li class="fragment appear">Desenvolvimento de APIs RESTful (HTTP1/2)</li>
 
-** Flow Finance (2021)
-#+ATTR_REVEAL: :frag (appear)
-- Automação de processos de faturamento (Clarence e Leadger)
-- Desenvolvimento de APIs para integração bancária
-- Processamento de dados CSV/XML em larga escala
-- Stack: Clojure(Script)
+</ul>
+</section>
+<section id="slide-org18788bd">
+<h3 id="org18788bd">Funerária Francana (2024-2025)</h3>
+<ul>
+<li class="fragment appear">Desenvolvimento de aplicativo Android/IOS</li>
+<li class="fragment appear">Análise de dados</li>
 
-** Lupo S.A. (2021)
-#+ATTR_REVEAL: :frag (appear)
-- Automação de relatórios técnicos com Clojure/LaTeX
-- Gestão de inventário de 300+ máquinas
-- Desenvolvimento de soluções para WJB Engenharia
-- Otimização de processos industriais
+</ul>
+</section>
+<section id="slide-org6e92a26">
+<h3 id="org6e92a26">FACTI (2023)</h3>
+<ul>
+<li class="fragment appear">Desenvolvimento Full Stack com JavaScript e Node.js</li>
+<li class="fragment appear">Criação de DSL (Domain Specific Language) para necessidades da empresa</li>
+<li class="fragment appear">Implementação de soluções com ClojureScript</li>
+<li class="fragment appear">Otimização de processos internos</li>
 
-* Projetos Destacados
-** Café do Bem (ONG)
-#+ATTR_REVEAL: :frag (appear)
-- Desenvolvimento de plataforma e-commerce
-- Projeto social para apoio a produtores de café
-- Website: cafe-do-bem.company.site
-- Trabalho voluntário contínuo
+</ul>
+</section>
+<section id="slide-org9bad5a7">
+<h3 id="org9bad5a7">Universidade de São Paulo (2022)</h3>
+<ul>
+<li class="fragment appear">Pesquisa em modelagem matemática de tráfego veicular</li>
+<li class="fragment appear">Desenvolvimento de soluções numéricas para PDEs</li>
+<li class="fragment appear">Implementação de algoritmos em Julia e Python</li>
+<li class="fragment appear">Aplicação de técnicas de IA em simulações numéricas</li>
 
-** Análises Estatísticas & Automação
-#+ATTR_REVEAL: :frag (appear)
-- Desenvolvimento de modelos estatísticos avançados
-- Automação de processos com XML/CSV
-- Análise de dados de licitações
-- Visualização de dados complexos
+</ul>
+</section>
+<section id="slide-org5e9ba83">
+<h3 id="org5e9ba83">Flow Finance (2021)</h3>
+<ul>
+<li class="fragment appear">Automação de processos de faturamento (Clarence e Leadger)</li>
+<li class="fragment appear">Desenvolvimento de APIs para integração bancária</li>
+<li class="fragment appear">Processamento de dados CSV/XML em larga escala</li>
+<li class="fragment appear">Stack: Clojure(Script)</li>
 
-* Formação Acadêmica
-** USP - Engenharia Física
-#+ATTR_REVEAL: :frag (appear)
-- Foco em Computação Científica
-- Pesquisa em Simulação Numérica
-- Estatística Multivariada
-- Modelagem Matemática
+</ul>
+</section>
+<section id="slide-orgdeb6fb2">
+<h3 id="orgdeb6fb2">Lupo S.A. (2021)</h3>
+<ul>
+<li class="fragment appear">Automação de relatórios técnicos com Clojure/LaTeX</li>
+<li class="fragment appear">Gestão de inventário de 300+ máquinas</li>
+<li class="fragment appear">Desenvolvimento de soluções para WJB Engenharia</li>
+<li class="fragment appear">Otimização de processos industriais</li>
 
-** Certificações Relevantes
-:PROPERTIES:
-:reveal_background_iframe: https://buddhilw.github.io/bug-free-fiesta/
-:reveal_background: rgb(250,250,250)
-:reveal_foreground: rgb(100,0,100)
-:reveal_background_opacity: 0.90
-:html_container_class: title__cards
-:END:
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org227c890">
+<h2 id="org227c890">Projetos Destacados</h2>
+<div class="outline-text-2" id="text-org227c890">
+</div>
+</section>
+<section id="slide-org722e252">
+<h3 id="org722e252">Café do Bem (ONG)</h3>
+<ul>
+<li class="fragment appear">Desenvolvimento de plataforma e-commerce</li>
+<li class="fragment appear">Projeto social para apoio a produtores de café</li>
+<li class="fragment appear">Website: cafe-do-bem.company.site</li>
+<li class="fragment appear">Trabalho voluntário contínuo</li>
 
-* Idiomas & Comunicação
-#+ATTR_REVEAL: :frag (appear)
-- Português 🇧🇷 - Nativo
-- Inglês 🇺🇸 - C2 (Certificado EF SET)
-- Mandarim 🇨🇳 - HSK2
-- Russo 🇷🇺 - Básico
+</ul>
+</section>
+<section id="slide-org7ba1ba7">
+<h3 id="org7ba1ba7">Análises Estatísticas &amp; Automação</h3>
+<ul>
+<li class="fragment appear">Desenvolvimento de modelos estatísticos avançados</li>
+<li class="fragment appear">Automação de processos com XML/CSV</li>
+<li class="fragment appear">Análise de dados de licitações</li>
+<li class="fragment appear">Visualização de dados complexos</li>
 
-* Objetivos & Próximos Passos
-#+ATTR_REVEAL: :frag (highlight-current-blue)
-- Especialização em Arquitetura de Software
-- MBA em Full Cycle Development
-- Desenvolvimento de produtos digitais
-- Contribuições para projetos open source
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgbb3f5fd">
+<h2 id="orgbb3f5fd">Formação Acadêmica</h2>
+<div class="outline-text-2" id="text-orgbb3f5fd">
+</div>
+</section>
+<section id="slide-orgbaf14a5">
+<h3 id="orgbaf14a5">USP - Engenharia Física</h3>
+<ul>
+<li class="fragment appear">Foco em Computação Científica</li>
+<li class="fragment appear">Pesquisa em Simulação Numérica</li>
+<li class="fragment appear">Estatística Multivariada</li>
+<li class="fragment appear">Modelagem Matemática</li>
 
-* Contato
-** Vamos Conversar?
-#+ATTR_REVEAL: :frag (appear)
-- LinkedIn: pedro-g-branquinho
-- GitHub: github.com/BuddhiLW
-- Email: pedrogbranquinho@gmail.com
-- Website: buddhilw.com
+</ul>
+</section>
+<section id="slide-org9676e04" class="title__cards" data-background-iframe="https://buddhilw.github.io/bug-free-fiesta/" data-background-interactive>
+<div style="background: rgb(250,250,250); opacity: 0.90; ">
+<h3 id="org9676e04">Certificações Relevantes</h3>
+</div>
+</section>
+</section>
+<section>
+<section id="slide-org43e47a9">
+<h2 id="org43e47a9">Idiomas &amp; Comunicação</h2>
+<ul>
+<li class="fragment appear">Português 🇧🇷 - Nativo</li>
+<li class="fragment appear">Inglês 🇺🇸 - C2 (Certificado EF SET)</li>
+<li class="fragment appear">Mandarim 🇨🇳 - HSK2</li>
+<li class="fragment appear">Russo 🇷🇺 - Básico</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-org6b056a7">
+<h2 id="org6b056a7">Objetivos &amp; Próximos Passos</h2>
+<ul>
+<li class="fragment highlight-current-blue">Especialização em Arquitetura de Software</li>
+<li class="fragment highlight-current-blue">MBA em Full Cycle Development</li>
+<li class="fragment highlight-current-blue">Desenvolvimento de produtos digitais</li>
+<li class="fragment highlight-current-blue">Contribuições para projetos open source</li>
+
+</ul>
+</section>
+</section>
+<section>
+<section id="slide-orgef8db1b">
+<h2 id="orgef8db1b">Contato</h2>
+<div class="outline-text-2" id="text-orgef8db1b">
+</div>
+</section>
+<section id="slide-org4188d4d">
+<h3 id="org4188d4d">Vamos Conversar?</h3>
+<ul>
+<li class="fragment appear">LinkedIn: pedro-g-branquinho</li>
+<li class="fragment appear">GitHub: github.com/BuddhiLW</li>
+<li class="fragment appear">Email: pedrogbranquinho@gmail.com</li>
+<li class="fragment appear">Website: buddhilw.com</li>
+
+</ul>
+</section>
+</section>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/dist/reveal.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/reveal.js/plugin/highlight/highlight.js"></script>
+
+
+<script>
+// Full list of configuration options available here:
+// https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+plugins: [RevealHighlight]
+});
+
+</script>
+<script src="./js/caption.js"></script>
+<script src="./js/style.js"></script>
+</body>
+</html>
